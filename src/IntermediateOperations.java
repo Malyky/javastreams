@@ -54,20 +54,3 @@ public class IntermediateOperations {
     }
 }
 
-class Person {
-    private final String name;
-    private final List<String> phoneNumbers;
-
-    public Person(String name, List<String> phoneNumbers) {
-        this.name = name;
-        this.phoneNumbers = phoneNumbers;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public List<String> getPhoneNumbers() {
-        return phoneNumbers;
-    }
-}
